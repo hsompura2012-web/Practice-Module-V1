@@ -4,9 +4,9 @@ module "network" {
 
 module "ec2" {
   source = "./ec2"
-  ami                    = "var.emi"
-  componentname          = "var.componentname"
+  ami                    = "var.ami"
   instance_type          = "var.instance_type"
+  componentname          = "var.componentname"
   sec_id = module.network.Sec_Id
 }
 
