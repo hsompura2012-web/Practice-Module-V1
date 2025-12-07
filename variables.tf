@@ -12,7 +12,7 @@ variable "zone_id" {
 
 }
 
-variable "componentname" {
+variable "component_name" {
   default = "FrontEnd"
 }
 

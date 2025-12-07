@@ -1,3 +1,3 @@
 variable "zone_id" {}
-variable "componentname" {}
+variable "component_name" {}
 variable "private_ip" {}
