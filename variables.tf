@@ -7,27 +7,12 @@ variable "instance_type" {
   default = "t3.micro"
 }
 
-variable "vpc_security_group_ids"{
-  default = [ "sg-07306e019683163e7" ]
-
-}
-
 variable "zone_id" {
   default =  "Z055196614WSVQYU4VYMA"
 
 }
 
-variable "Instance_Det" {
-  default = {
-    frontend = ""
-    mongodb = ""
-    redis = ""
-    catalogue = ""
-    mysql = ""
-    user = ""
-    cart = ""
-    shipping = ""
-    rabbitmq = ""
-    payment = ""
-  }
+variable "componentname" {
+  default = "FrontEnd"
 }
+
